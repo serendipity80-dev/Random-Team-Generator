@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+    integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ=="
+    crossorigin="anonymous" />
+  <title>Document</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #222;
+      color: antiquewhite;
+    }
+
+    .container {
+      display: flex;
+      /* flex-direction: column; */
+      align-items: center;
+      justify-content: center;
+
+    }
+
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .row {
+      box-shadow: 0 0 5px #eee;
+      padding: 10rem;
+      margin: 1rem;
+      /* display:flex;
+        flex-direction: column; */
+    }
+
+    .row i {
+      opacity: .1;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <h1>FbW39</h1>
+    <i class="fas fa-users fa-5x"></i>
+
+    <input type="submit" class="button-primary" value="Generate Team" id="shuffle">
+  </header>
+  <div class="container">
+
+    <div class="row">
+      <i class="fas fa-users fa-3x"></i>
+      <h5 id="student01" class="two-thirds column"></h5>
+      <h5 id="student02" class="two-thirds column"></h5>
+      <h5 id="student03" class="two-thirds column"></h5>
+      <h5 id="student04" class="two-thirds column"></h5>
+    </div>
+    <div class="row">
+      <i class="fas fa-users fa-3x"></i>
+      <h5 id="student05" class="two-thirds column"></h5>
+      <h5 id="student06" class="two-thirds column"></h5>
+      <h5 id="student07" class="two-thirds column"></h5>
+      <h5 id="student08" class="two-thirds column"></h5>
+ 
+    </div>
+    <div class="row">
+      <i class="fas fa-users fa-3x"></i>
+      
+      <h5 id="student09" class="two-thirds column"></h5>
+      <h5 id="student10" class="two-thirds column"></h5>
+      <h5 id="student11" class="two-thirds column"></h5>
+    </div>
+    <div class="row">
+      <i class="fas fa-users fa-3x"></i>
+   
+      <h5 id="student12" class="two-thirds column"></h5>
+      <h5 id="student13" class="two-thirds column"></h5>
+      <h5 id="student14" class="two-thirds column"></h5>
+
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
